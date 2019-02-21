@@ -1,17 +1,18 @@
 def division(num1, num2)
- return num1 / num2
+  num1 / num2
 end
 
 def assign_variable(value)
-  return "#{value}"
+  bob = value
+  bob
 end
 
 def argue(argument)
-  return "#{argument}"
+  argument
 end
 
 def greeting(greeting, name)
-  return "#{greeting}, #{name}."
+  return "#{greeting}, #{name}"
 end
 
 def return_a_value
@@ -23,5 +24,5 @@ def last_evaluated_value
 end
 
 def pizza_party(pizza = "cheese")
-  return "#{pizza}"
+  return pizza
 end
